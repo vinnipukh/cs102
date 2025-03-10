@@ -1,4 +1,4 @@
-package questionset123;
+package questionset1;
 
 public class Car {
     public String model;

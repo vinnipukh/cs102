@@ -1,4 +1,4 @@
-package questionset123;
+package questionset1;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,14 @@ public class Student {
     public void updateGrade(int newGrade){
         this.grade = newGrade;
     }
-    public void
+    public String checkAttendance(){
+        if(attendance> 75){
+            return "good";
+        }
+        else{
+            return "needs improvement";
+        }
+    }
 
     public void updateGrade(){
         if(getGrade()> 100){

@@ -1,8 +1,10 @@
 package questionset2;
 
-public class catalog {
+public class Product {
+    private  int size;
+    private String[][] catalog;
 
-    public catalog(){
+    public Product(int size){
 
     }
 }
